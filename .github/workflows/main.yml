@@ -27,3 +27,7 @@ jobs:
       # Install react-scripts
       - name: Install react-scripts
         run: npm install react-scripts@3.4.0
+      
+      # Run tests
+      - name: Run tests
+        run: npm run test
