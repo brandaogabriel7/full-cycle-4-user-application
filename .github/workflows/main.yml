@@ -26,7 +26,7 @@ jobs:
         
       # Install react-scripts
       - name: Install react-scripts
-        run: yarn install react-scripts@3.4.0
+        run: yarn add react-scripts@3.4.0
       
       # Build
       - name: Build project
