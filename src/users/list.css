@@ -1,0 +1,19 @@
+.users-list {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90vw;
+    height: 90vh;
+}
+
+.users-list-header,
+.users-list-line {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    border: solid 1px black;
+    align-content: stretch;
+    gap: 10px;
+}
+img {
+    margin: auto;
+}
